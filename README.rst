@@ -5,7 +5,9 @@ Introduction
 ============
 
 Doubleater is a project oriented to improve privacity of Microsoft Windows operating system, blocking most of all telemetry, real time scanning files and diagnostic connections.
+
 It is mainly developed for the windows edition: Windows 10 Enterprise LTSC (21H2 version), but it should work perfectly on any Windows version higher than Windows 10, as well as Windows 7/8.1 with some code modifications. 
+
 It is highly recommended to have knowledge of Windows Internal and programming in C/C++, if so.
 
 License
@@ -37,10 +39,14 @@ There are two ways for building Debloater under Windows:
 1. Compile with MSVC from VS 2019 or later.
    You can open Doubleater.sln file to load the whole project to build it from Visual Studio
 
-2. Compile with CMake.
-     $ mkdir build && cd build
-     $ cmake ..
-     $ cmake --build . --config Release
+
+2. Compile with CMake:
+
+.. code-block:: bash
+
+   $> mkdir build && cd build
+   $> cmake ..
+   $> cmake --build . --config Release
 
 
 In both cases, check `build/Release` to find the built (.exe) file.
