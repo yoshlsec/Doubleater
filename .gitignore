@@ -1,0 +1,11 @@
+*.obj
+*.o
+*.exe
+*.out
+
+*.DS_Store
+Thumbs.db
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
